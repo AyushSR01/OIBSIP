@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+form{
+    background-color: rgba(255, 255, 255, 0.511);
+    height: 30%;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    font-size: 3vh;
+    gap: 10px;
+}
+.check input{
+    margin-left: 20px;
+    
+}
+p{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+input{
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+button{
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+
